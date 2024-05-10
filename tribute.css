@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0px;
+    background-color: darkred;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.flexone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flextwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#overallWrapper{
+    width: 100%;
+    height: auto;
+}
+#firstWrapper{
+    width: 100%;
+    height: auto;
+    padding: 40px 3%;
+    margin: 0%;
+}
+#title{
+    text-align: center;
+}
+#drN{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 1%;
+}
+#tMan{
+    color: white;
+}
+#keyDiv{
+    background-image: url(key-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    background-color: brown;
+    margin-top: 3%;
+    padding: 10px 5%;
+}
+#triImg{
+  
+}
+#norman{
+    color: white;
+    text-align: center;
+}
+
+#here{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+#list{
+    align-items: center;
+}
+.middleWords{
+    color: white;
+    padding-left: 30%;
+   padding-right: 30%;
+}
+
+#indian{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.test li{
+    margin: 16px 0;
+}
+.testrun{
+   padding-left: 30%;
+   padding-right: 30%;
+}
+#wiki{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+#faculty{
+    margin-top: 1%;
+    color: white;
+    text-align: center;
+}
+#copy{
+    color: white;
+    margin-top: 7%;
+}
